@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC55DF4D2EE384560014C4DA /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC55DF4C2EE384560014C4DA /* FourthViewController.m */; };
+		AC55DF4F2EE387A10014C4DA /* mult.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC55DF4E2EE387A10014C4DA /* mult.wav */; };
 		ACC2C8792EDE587500BCFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC2C8782EDE587500BCFEE1 /* AppDelegate.m */; };
 		ACC2C87C2EDE587500BCFEE1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC2C87B2EDE587500BCFEE1 /* SceneDelegate.m */; };
 		ACC2C87F2EDE587500BCFEE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC2C87E2EDE587500BCFEE1 /* ViewController.m */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC55DF4B2EE384560014C4DA /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		AC55DF4C2EE384560014C4DA /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		AC55DF4E2EE387A10014C4DA /* mult.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mult.wav; sourceTree = "<group>"; };
 		ACC2C8742EDE587500BCFEE1 /* AppCambiarPantalla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCambiarPantalla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC2C8772EDE587500BCFEE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACC2C8782EDE587500BCFEE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,7 +129,10 @@
 				ACC2C8832EDE587900BCFEE1 /* Assets.xcassets */,
 				ACC2C8852EDE587900BCFEE1 /* LaunchScreen.storyboard */,
 				ACC2C8882EDE587900BCFEE1 /* Info.plist */,
+				AC55DF4E2EE387A10014C4DA /* mult.wav */,
 				ACC2C8892EDE587900BCFEE1 /* main.m */,
+				AC55DF4B2EE384560014C4DA /* FourthViewController.h */,
+				AC55DF4C2EE384560014C4DA /* FourthViewController.m */,
 			);
 			path = AppCambiarPantalla;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 			files = (
 				ACC2C8872EDE587900BCFEE1 /* LaunchScreen.storyboard in Resources */,
 				ACC2C8842EDE587900BCFEE1 /* Assets.xcassets in Resources */,
+				AC55DF4F2EE387A10014C4DA /* mult.wav in Resources */,
 				ACC2C8822EDE587500BCFEE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +290,7 @@
 				ACC2C8B12EDE5BDC00BCFEE1 /* ThirdViewController.m in Sources */,
 				ACC2C8792EDE587500BCFEE1 /* AppDelegate.m in Sources */,
 				ACC2C88A2EDE587900BCFEE1 /* main.m in Sources */,
+				AC55DF4D2EE384560014C4DA /* FourthViewController.m in Sources */,
 				ACC2C87C2EDE587500BCFEE1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
